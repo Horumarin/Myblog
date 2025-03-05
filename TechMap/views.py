@@ -17,6 +17,7 @@ class ViewPage(DetailView):
     context_object_name = "blog"
 
 
+# ホームページからの遷移
 class PostTetail(DetailView):
     model = BlogPost
     template_name = "blog/post_detail.html"
