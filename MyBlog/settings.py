@@ -94,9 +94,9 @@ else:
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql_psycopg2",
-            "NAME": "TechMap",  # ご自身が作成したデータベース名
-            "USER": "myblog",  # ご自身が設定したユーザー名
-            "PASSWORD": "7RaAXDxz",  # ユーザーを作成した時のpassword
+            "NAME": "TechMap", 
+            "USER": "myblog",  
+            "PASSWORD": "7RaAXDxz",  
             "HOST": "localhost",
             "PORT": "5432",
         }
